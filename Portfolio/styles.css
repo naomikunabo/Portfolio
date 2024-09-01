@@ -1,0 +1,93 @@
+/* Basic reset and body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Light gray background color */
+    color: #333; /* Dark gray text color */
+    background: linear-gradient(135deg, #6A5ACD, #8A2BE2, #7B68EE); /* Gradient background */
+}
+
+/* Header section styling */
+header {
+    background: #6A5ACD; /* SlateBlue background for the header */
+    padding: 10px 0; /* Padding inside the header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow for the header */
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style: none; /* Removes bullets from the list */
+    padding: 0; /* Removes default padding */
+    text-align: center; /* Centers the navigation items */
+}
+
+nav ul li {
+    display: inline-block; /* Displays list items inline */
+    margin: 0 15px; /* Adds space between the navigation items */
+    transition: transform 0.3s ease-in-out; /* Adds smooth transition */
+}
+
+nav ul li:hover {
+    transform: scale(1.1); /* Scales up on hover */
+}
+
+nav ul li a {
+    color: white; /* White text color for the links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: bold; /* Makes the text bold */
+    font-size: 18px; /* Increases the font size */
+    transition: color 0.3s ease-in-out; /* Adds smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Changes color to gold on hover */
+}
+
+/* Section styling */
+section {
+    padding: 50px 20px; /* Padding inside sections */
+    max-width: 1000px; /* Maximum width of the section */
+    margin: auto; /* Centers the section */
+}
+
+/* Heading styling */
+h1, h2, h3 {
+    color: rgb(231, 247, 12); /* yellow color for headings */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for a 3D effect */
+    text-align: center; /* Center align headings */
+}
+
+/* Project and experience item styling */
+.project, .experience-item {
+    background-color: #2c98d7; /* Blue background for project and experience items */
+    padding: 20px; /* Padding inside each item */
+    margin-bottom: 20px; /* Space between items */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow for a raised effect */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.project:hover, .experience-item:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #6A5ACD; /* SlateBlue background for the footer */
+    color: rgb(255, 255, 255); /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding inside the footer */
+    margin-top: 40px; /* Space above the footer */
+}
+
+/* Link styling */
+a {
+    color: #FFD700; /* Gold color for links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Underlines the link when hovered over */
+}
